@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Persons from "../persons/Persons";
+import PersonsTable from "../persons/PersonsTable";
+import 'fomantic-ui-css/semantic.css';
 
 function App() {
 	return (
-		<Persons/>
+		<PersonsTable/>
 	);
 }
 

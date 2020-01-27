@@ -1,4 +1,4 @@
-# My Estimation for the task below is: `x` hours
+# My estimation for the task below is: `x` hours
 
 Read the below description of our coding challenge carefully and put in an estimation in the headline above.
 

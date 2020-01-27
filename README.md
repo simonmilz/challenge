@@ -8,3 +8,5 @@ Read the below description of our coding challenge carefully and put in an estim
 - Create a listing of all persons coming from the endpoint `/api/persons`
 - List all attributes defined in the phone model (except ID)
 - Push your work and create a pull-request into our base repository
+
+# My actual time I spent for implementation was: `x` hours

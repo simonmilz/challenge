@@ -1,4 +1,4 @@
-# Milzer coding challenge by CoPe
+# [Milzer coding challenge](https://github.com/simonmilz/challenge) by [CoPe](https://github.com/cope)
 
 ## My estimation for the task below is: 1 hour
 

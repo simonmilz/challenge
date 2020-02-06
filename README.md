@@ -1,4 +1,4 @@
-# My estimation for the task below is: `x` hours
+# My estimation for the task below is: `3` hours
 
 Read the below description of our coding challenge carefully and put in an estimation in the headline above.
 
@@ -9,4 +9,13 @@ Read the below description of our coding challenge carefully and put in an estim
 - List all attributes defined in the phone model (except ID)
 - Push your work and create a pull-request into our base repository
 
-# My actual time I spent for implementation was: `x` hours
+# My actual time I spent for implementation was: `3` hours
+- Added typescript support.
+- Added css-modules support.
+- Added Ant design support.
+- Added Mobx support.
+- Structured by modules.
+- Separation of Concerns between View,Model,Service and Domain.
+- Tested de server using json-server(npm install -g json-server).
+- npm start 
+- npm run server

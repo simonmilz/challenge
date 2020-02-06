@@ -1,0 +1,11 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+.app-title {
+  color: tomato;
+}
+
+.app__subtitle {
+  color: steelblue;
+}

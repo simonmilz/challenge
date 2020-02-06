@@ -313,5 +313,32 @@
         "name": "Stephanie Combs"
       }
     ]
-  }
+  },{
+  "_id": "5e2ed9df0030742e8c5a4a41",
+  "isActive": true,
+  "createdAt": "Wednesday, December 21, 2016 1:22 PM",
+  "firstname": "Victor",
+  "lastname": "Barzana",
+  "company": "CODEGENIO",
+  "email": "victor.barzana@codegenio.com",
+  "phone": "+1 (881) 503-2970",
+  "address": "Palmito 1 BJ, Motril",
+  "about": "Senior Software Engineer at codegenio.com",
+  "latitude": "6.683283",
+  "longitude": "140.848338",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Terry Foley"
+    },
+    {
+      "id": 1,
+      "name": "Keller Sellers"
+    },
+    {
+      "id": 2,
+      "name": "Stephanie Combs"
+    }
+  ]
+}
 ]

@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 1337
 const cors = require('cors')
-const persons = require('./persons')
+const persons = require('./data/persons')
 
 // Configure web-server
 app.use(cors())

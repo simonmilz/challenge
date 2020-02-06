@@ -1,4 +1,4 @@
-# My estimation for the task below is: `x` hours
+# My estimation for the task below is: `3` hours
 
 Read the below description of our coding challenge carefully and put in an estimation in the headline above.
 
@@ -9,4 +9,4 @@ Read the below description of our coding challenge carefully and put in an estim
 - List all attributes defined in the phone model (except ID)
 - Push your work and create a pull-request into our base repository
 
-# My actual time I spent for implementation was: `x` hours
+# My actual time I spent for implementation was: `2.46` hours

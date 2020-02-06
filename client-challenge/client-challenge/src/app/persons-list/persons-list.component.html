@@ -1,0 +1,19 @@
+<div>
+  <h3 class="text-center text-danger p-2">Persons Challenge</h3>
+  <ngx-datatable
+        class="material"
+        [rows]="persons"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [headerHeight]="50"
+        [footerHeight]="50"
+        rowHeight="auto"
+        [externalPaging]="true"
+        [count]="personsCount"
+        [offset]="0"
+        [limit]="250"
+        (page)="getPersons($event)"
+      >
+      </ngx-datatable>
+</div>
+

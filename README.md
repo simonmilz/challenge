@@ -1,4 +1,4 @@
-# My estimation for the task below is: `x` hours
+# My estimation for the task below is: `3` hours
 
 Read the below description of our coding challenge carefully and put in an estimation in the headline above.
 
@@ -16,4 +16,6 @@ Read the below description of our coding challenge carefully and put in an estim
 - Added Mobx support.
 - Structured by modules.
 - Separation of Concerns between View,Model,Service and Domain.
-- Tested de server using json-server.
+- Tested de server using json-server(npm install -g json-server).
+- npm start 
+- npm run server

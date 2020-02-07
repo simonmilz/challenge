@@ -1,0 +1,11 @@
+.personContainer{
+    display: flex;
+    margin: 20px;
+    box-shadow: 3px -1px 9px 0px #02191d;
+}
+
+.atrr{
+    margin-top: 5px;
+}
+
+

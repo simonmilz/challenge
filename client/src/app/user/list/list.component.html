@@ -1,0 +1,44 @@
+<div class="col-12 user-container">
+  <table class="table table-striped">
+    <thead>
+    <tr class="row">
+      <th class="col-1">Active</th>
+      <th class="col-2">Person</th>
+      <th class="col-1">Company</th>
+      <th class="col-2">Phone</th>
+      <th class="col-3">Address</th>
+      <th class="col-1">Tags</th>
+      <th class="col-2">Fiends</th>
+      <!-- <th>About</th> -->
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of users" class="row">
+      <td class="col-1">
+        <span *ngIf="user.isActive" class="badge badge-success">Yes</span>
+        <span *ngIf="!user.isActive" class="badge badge-danger">No</span>
+      </td>
+      <td class="col-2">
+        <p class='name'><strong>{{user.firstname}} {{user.lastname}}</strong></p>
+        <p class='email'><a href="mailto:{{user.email}}">{{user.email}}</a></p>
+        <button class="btn btn-outline-primary btn-small" data-toggle="popover" [attr.data-content]="user.about">About Me</button>
+      </td>
+      <td class="col-1">{{user.company}}</td>
+      <td class="col-2">{{user.phone}}</td>
+      <td class="col-3">
+        <a href="http://maps.google.com/maps?q={{user.latitude}},{{user.longitude}}" target="_blank" rel="noopener noreferrer">
+          <fa-icon [icon]="faMapMarkedAlt"></fa-icon>
+        </a>
+        {{user.address}}
+      </td>
+      <td class="col-1">
+        <span class="badge badge-primary" *ngFor="let tag of user.tags">{{tag}}</span>
+      </td>
+      <td class="col-2">
+        <span class="badge badge-info" *ngFor="let friend of user.friends">{{friend.name}}</span>
+      </td>
+      <!-- <td>{{user.about}}</td> -->
+    </tr>
+    </tbody>
+  </table>
+</div>

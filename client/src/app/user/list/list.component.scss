@@ -1,0 +1,20 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.name {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.email {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.btn-small {
+  padding: 0 5px;
+  font-size: small;
+}

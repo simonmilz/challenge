@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start-server": "node server.js",
+    "start-ui": "cd ./client && ng serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simon Milz",

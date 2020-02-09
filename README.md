@@ -1,4 +1,4 @@
-# My estimation for the task below is: `x` hours
+# My estimation for the task below is: `3` hours
 
 Read the below description of our coding challenge carefully and put in an estimation in the headline above.
 
@@ -9,4 +9,12 @@ Read the below description of our coding challenge carefully and put in an estim
 - List all attributes defined in the phone model (except ID)
 - Push your work and create a pull-request into our base repository
 
-# My actual time I spent for implementation was: `x` hours
+# My actual time I spent for implementation was: `3` hours
+- Added typescript support.
+- Added scss-modules support.
+- Added bootstrap 4 design support.
+- Added Font Awesome support.
+- Structured by modules and components.
+
+- npm run start-server 
+- npm run start-ui
